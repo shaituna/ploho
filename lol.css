@@ -1,0 +1,339 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background: url(cs20.png) 100% 95%, url(key1.png) 15% 90%, url(awp.png) 50% -75%;
+    border: none;
+    height: 664px;
+    width: 1310px;
+    background-color:#DCDCDC;
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    transform: translate(-50%);
+    left: 50%;
+    margin-bottom: 0;
+}
+.iconforsymbol{
+    border:none;
+    height: 100px;
+    width: 100px;
+    margin: 50px 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.continueofsymbol{
+    border:none;
+    height: 40px;
+    margin-left: 165px;
+    font-style: oblique;
+    font-weight: 900;
+    margin-top: -45px;
+    position: relative;
+}
+.login{
+    border: none;
+    height: 40px;
+    width: 50px;
+    margin-top: 60px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 900px; 
+   position: relative;
+}
+.login:hover{
+    color: white;
+}
+.registration{
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin-top: 60px;
+    margin-left: 30px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+ 
+}
+.registration:hover{
+    color: white;
+}
+#zatemnenie2{
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  } #zatemnenie2:target {
+      display: block;
+  }
+  #okno2 {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid none;
+    border-radius: 20px;
+    color: white ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: linear-gradient( #2F4F4F,black);
+    z-index: 2;
+  }
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  #okno {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid none;
+    border-radius: 20px;
+    color: white ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: linear-gradient( #778899, black);
+    z-index: 2;
+  }
+  #zatemnenie:target {
+      display: block;
+}
+  .close {
+    display: inline-block;
+    border: 1px solid none;
+    border-radius: 10px;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 14pt;
+    cursor:pointer;
+
+  }
+input{
+    margin-top:20px;
+    width: 400px;
+    height: 30px;
+    outline: none;
+    color: black;
+   display: block;
+} 
+.input-wrap{
+    margin-top:20px;
+    width: 400px;
+    height: 30px;
+    outline: none;
+    color: white;
+   display: block;
+   background: rgba(0, 0, 0, 0);
+   border: none;
+   border-bottom: 1px solid white;
+}
+.input-wrap::placeholder{
+    color: white;
+}
+.forgot{
+  margin-top: 10px;
+    margin-left: 250px;
+    text-decoration: none;
+}
+.slovo{
+    margin-top: 10px;
+}
+button{
+    height: 35px;
+    width: max-content;
+   margin: auto;
+  color:black;
+  border-radius: 10px;
+ 
+}
+.SUBMIT{
+    border:none;
+    width: max-content;
+    margin: 10% auto;
+}.SUBMIT2{
+    border:none;
+    width: max-content;
+    margin: 5% auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{ 
+    color:black;
+}
+a.forgot{
+    color: white;
+}
+.symbol{
+    text-align: center;
+    
+}
+.headertext{
+    border: none;
+    margin-bottom: 50px;
+    display:block;
+    align-content: center;
+    position: relative;
+    margin-left: 10%;
+    text-align: center;
+}
+.main{
+    height: 664px;
+    width: 1310px;
+    background-color:#778899;
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    transform: translate(-50%);
+    left: 50%;
+    margin-top:664px;
+    margin-bottom: 0;
+}
+.points{
+    border:none;
+    height: 200px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.don{
+    border: none;
+    height: 350px;
+    position: relative;
+    display: block;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.dan{
+    display: block;
+    border: none;
+    height: 350px;
+    position: relative;
+    margin-top: 400px;
+    margin-left: -300px;
+}
+li{
+    font-size: large;
+}
+.sometext{
+    margin-top: 150px;
+    margin-left: 100px;
+    display: block;
+    border: none;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+    height: 380px;
+    padding: 2px;
+}
+.z{
+    color:white;
+}
+.footer{
+    background-color: #C0C0C0;
+    width: 1310px;
+    height: 664px;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    margin-top: 1328px;
+}
+.smth{
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+   
+}
+.kontakti{
+    background-image: url(csgopic.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 650px;
+    border:1px solid #C0C0C0;
+    height: 300px;
+    margin-top: 200px;
+}
+li{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.beda1{
+    display: flex;
+    border: none;
+    align-items: center;
+    margin-top: 10px;
+}
+.beda1::before{
+    content: url(email.png)"";
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.beda2{
+    display: flex;
+    border: none;
+    align-items: center;
+}
+.beda2::before{
+    content: url(vk.png)"";
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.beda3{
+    display: flex;
+    border: none;
+    align-items: center;
+}
+.beda3::before{
+    content: url(telegram.png)"";
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.beda4{
+    display: flex;
+    border: none;
+    align-items: center;
+}
+.beda4::before{
+    content: url(insta.png)"";
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.round{
+    list-style: none;
+    margin-top: 50px;
+}
+
+.kontakt{
+    margin-left: 75px;
+}
